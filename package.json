@@ -1,0 +1,50 @@
+{
+    "name": "koa2-cas",
+    "version": "0.0.1",
+    "description": "koa2, CAS, dbUpdater, logger server generator",
+    "keywords": ["koa2", "dbUpdater", "logger", "cas"],
+    "author": "PredokMiF <PredokMiF@qq.com> (https://github.com/PredokMiF)",
+    "homepage": "https://github.com/PredokMiF/koa2-cas",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/PredokMiF/koa2-cas.git"
+    },
+    "bugs": {
+        "url": "https://github.com/PredokMiF/koa2-cas/issues"
+    },
+    "license": "MIT",
+    "files": ["index.js", "lib"],
+    "engines": {
+        "node": ">=8.6.4"
+    },
+    "scripts": {
+        "npm_update-show": "ncu --packageFile package.json",
+        "npm_update-show_pre": "ncu --packageFile package.json --greatest",
+        "npm_update": "ncu --packageFile package.json --upgrade&&npm update"
+    },
+    "dependencies": {
+        "async-file": "^2.0.2",
+        "bluebird": "^3.5.1",
+        "cross-env": "^5.1.3",
+        "fs-extra": "^5.0.0",
+        "joi": "^13.1.2",
+        "koa": "^2.5.0",
+        "koa-body": "^2.5.0",
+        "koa-cookie": "^1.0.0",
+        "koa-favicon": "^2.0.0",
+        "koa-no-cache": "^2.0.0",
+        "koa-router": "^7.4.0",
+        "koa-session": "^5.8.1",
+        "koa-static": "^4.0.2",
+        "lodash": "^4.17.5",
+        "md5": "^2.2.1",
+        "npm-check-updates": "^2.14.0",
+        "pg-promise": "^8.1.1",
+        "request": "^2.83.0",
+        "request-promise": "^4.2.2",
+        "rimraf": "^2.6.2",
+        "winston": "^2.4.0",
+        "xml2js": "^0.4.19"
+    },
+    "devDependencies": {}
+}
