@@ -2,8 +2,13 @@
     "name": "koa2-cas",
     "version": "0.0.1",
     "description": "koa2, CAS, dbUpdater, logger server generator",
-    "keywords": ["koa2", "dbUpdater", "logger", "cas"],
-    "author": "PredokMiF <PredokMiF@qq.com> (https://github.com/PredokMiF)",
+    "keywords": [
+        "koa2",
+        "dbUpdater",
+        "logger",
+        "cas"
+    ],
+    "author": "PredokMiF <grigorchuk.konstantin@gmail.com> (https://github.com/PredokMiF)",
     "homepage": "https://github.com/PredokMiF/koa2-cas",
     "repository": {
         "type": "git",
@@ -13,9 +18,12 @@
         "url": "https://github.com/PredokMiF/koa2-cas/issues"
     },
     "license": "MIT",
-    "files": ["index.js", "lib"],
+    "files": [
+        "index.js",
+        "lib"
+    ],
     "engines": {
-        "node": ">=8.6.4"
+        "node": ">=8.9.4"
     },
     "scripts": {
         "npm_update-show": "ncu --packageFile package.json",
@@ -30,11 +38,13 @@
         "joi": "^13.1.2",
         "koa": "^2.5.0",
         "koa-body": "^2.5.0",
+        "koa-bodyparser": "^4.2.0",
         "koa-cookie": "^1.0.0",
-        "koa-favicon": "^2.0.0",
+        "koa-favicon": "^2.0.1",
         "koa-no-cache": "^2.0.0",
         "koa-router": "^7.4.0",
         "koa-session": "^5.8.1",
+        "koa-session-memory": "^1.0.2",
         "koa-static": "^4.0.2",
         "lodash": "^4.17.5",
         "md5": "^2.2.1",
